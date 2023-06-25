@@ -6,11 +6,42 @@
   height: 40vmin;
   pointer-events: none;
 }
+/* .textform{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+.light-blue{
+  background-color: #CAF8FF;
+}
+.light-yellow{
+  background-color: #FFF9C4;
+}
+.light-violet{
+  background-color:#C5C5FC;
+}
+.light-pink{
+  background-color: #FFAEC0;
+}
+.yellow{
+  background-color: #FFCC66;
+}
+.color{
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.HtmlForm-control{
+  width: 100%;
 }
 
 .App-header {
